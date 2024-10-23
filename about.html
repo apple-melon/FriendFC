@@ -5,148 +5,149 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>FRIEND FC</title>
         
-        <link rel="stylesheet" href="about.css">
         <style>
             * {
-    margin: 0;
-    padding: 0;
-}
-
-header {
-    background-color: #333;
-    color: white;
-    padding: 20px;
-    padding-bottom: 50px;
-    padding-top: 50px;
-    text-align: center;
-}
-
-.logo{
-    margin-top: 10px;
-    width: 150px;
-    height: 150px;
-    border-radius: 100px;
-    object-fit: cover;
-}
-
-.team-name{
-    margin-bottom: 10px;
-    font-size: 40px;
-    display: inline-block;
-}
-
-nav{
-    background-color: #413d3d;
-    color: white;
-    text-align: center;
-    padding-top: 7px;
-    padding-bottom: 7px;
-}
-
-nav a{
-    color: white;
-    text-decoration: none;
-    margin-right: 3%;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 100;
-    transition: color 0.5s;
-}
-
-nav a:hover{
-    color: rgba(255, 255, 255, 0.42);
-    text-decoration: underline;
-}
-
-nav a:active{
-    transition: color 0.1s;
-    color: rgb(112, 112, 156);
-}
-
-
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f0f0f0;
-}
-
-.container {
-    position: relative;
-    width: 600px;
-    height: 900px;
-    margin: 50px auto;
-    background-image: url('https://upload.wikimedia.org/wikipedia/commons/5/5c/Football_pitch_small.svg'); /* 축구장 이미지 */
-    background-size: cover;
-}
-
-
-
-/* 각 포지션을 위한 스타일 */
-.player {
-    position: absolute;
-    padding: 5px 10px;
-    background-color: rgba(255, 255, 255, 0.8);
-    border-radius: 8px;
-    font-weight: bold;
-    text-align: center;
-}
-
-/* 포지션 배치 */
-.goalkeeper {
-    top: 85%;
-    left: 50%;
-    transform: translateX(-50%);
-}
-
-.defender-left {
-    top: 65%;
-    left: 5%; /* 더 왼쪽으로 이동 */
-}
-
-.defender-center {
-    top: 65%;
-    left: 50%;
-    transform: translateX(-50%);
-}
-
-.defender-right {
-    top: 65%;
-    left: 75%; /* 더 오른쪽으로 이동 */
-}
-
-.midfielder-left {
-    top: 45%;
-    left: 5%; /* 더 왼쪽으로 이동 */
-}
-
-.midfielder-center {
-    top: 45%;
-    left: 50%;
-    transform: translateX(-50%);
-}
-
-.midfielder-right {
-    top: 45%;
-    left: 75%; /* 더 오른쪽으로 이동 */
-}
-
-.forward-left {
-    top: 25%;
-    left: 25%;
-}
-
-.forward-right {
-    top: 25%;
-    left: 60%;
-}
-
-.ending{
-    background-color: #444444;
-    color: white;
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
+                margin: 0;
+                padding: 0;
+            }
+            
+            header {
+                background-color: #333;
+                color: white;
+                padding: 20px;
+                padding-bottom: 50px;
+                padding-top: 50px;
+                text-align: center;
+            }
+            
+            
+            .logo{
+                margin-top: 10px;
+                width: 150px;
+                height: 150px;
+                border-radius: 100px;
+                object-fit: cover;
+            }
+            
+            .team-name{
+                margin-bottom: 10px;
+                font-size: 40px;
+                display: inline-block;
+            }
+            
+            nav{
+                background-color: #413d3d;
+                color: white;
+                text-align: center;
+                padding-top: 7px;
+                padding-bottom: 7px;
+            }
+            
+            nav a{
+                color: white;
+                text-decoration: none;
+                margin-right: 3%;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 100;
+                transition: color 0.5s;
+            }
+            
+            nav a:hover{
+                color: rgba(255, 255, 255, 0.42);
+                text-decoration: underline;
+            }
+            
+            nav a:active{
+                transition: color 0.1s;
+                color: rgb(112, 112, 156);
+            }
+            
+            
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: #f0f0f0;
+            }
+            
+            .container {
+                position: relative;
+                width: 600px;
+                height: 900px;
+                margin: 50px auto;
+                background-image: url('Football_positions.png'); /* 축구장 이미지 */
+                background-size: cover;
+                border-radius: 30px;
+            }
+            
+            
+            
+            /* 각 포지션을 위한 스타일 */
+            .player {
+                position: absolute;
+                padding: 5px 10px;
+                background-color: rgba(255, 255, 255, 0.8);
+                border-radius: 8px;
+                font-weight: bold;
+                text-align: center;
+            }
+            
+            /* 포지션 배치 */
+            .goalkeeper {
+                top: 85%;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+            
+            .defender-left {
+                top: 65%;
+                left: 5%; /* 더 왼쪽으로 이동 */
+            }
+            
+            .defender-center {
+                top: 65%;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+            
+            .defender-right {
+                top: 65%;
+                left: 75%; /* 더 오른쪽으로 이동 */
+            }
+            
+            .midfielder-left {
+                top: 45%;
+                left: 5%; /* 더 왼쪽으로 이동 */
+            }
+            
+            .midfielder-center {
+                top: 45%;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+            
+            .midfielder-right {
+                top: 45%;
+                left: 75%; /* 더 오른쪽으로 이동 */
+            }
+            
+            .forward-left {
+                top: 25%;
+                left: 25%;
+            }
+            
+            .forward-right {
+                top: 25%;
+                left: 60%;
+            }
+            
+            .ending{
+                background-color: #444444;
+                color: white;
+                text-align: center;
+                padding-top: 10px;
+                padding-bottom: 10px;
+            }
   
         </style>
     </head>
@@ -160,22 +161,23 @@ body {
 
         <nav>
             <a href="https://apple-melon.github.io/FriendFC/">홈</a>
-            <a href="">팀 소개</a>
-            <a href="">포지션</a>
+            <a href="about.html">포지션</a>
+            <a href="">팀원 소개</a>
             <a href="">훈련 일정</a>
             <a href="">갤러리</a>
             <a href="">연락처</a>
         </nav>
-
+        
         
         <div class="container">
             <!-- 골키퍼 -->
             <div class="player goalkeeper">Goalkeeper<br>(GK)</div>
             
+            
             <!-- 수비수 -->
-            <div class="player defender-left">Left Defender<br>(LD)</div>
-            <div class="player defender-center">Center Defender<br>(CD)</div>
-            <div class="player defender-right">Right Defender<br>(RD)</div>
+            <div class="player defender-left">Left Defender<br>(LB)</div>
+            <div class="player defender-center">Center Defender<br>(CB)</div>
+            <div class="player defender-right">Right Defender<br>(RB)</div>
     
             <!-- 미드필더 -->
             <div class="player midfielder-left">Left Midfielder<br>(LM)</div>
