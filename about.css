@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+
+.logo{
+    margin-top: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    object-fit: cover;
+}
+
+.team-name{
+    margin-bottom: 10px;
+    font-size: 40px;
+    display: inline-block;
+}
+
+nav{
+    background-color: #413d3d;
+    color: white;
+    text-align: center;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    margin-right: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100;
+    transition: color 0.5s;
+}
+
+nav a:hover{
+    color: rgba(255, 255, 255, 0.42);
+    text-decoration: underline;
+}
+
+nav a:active{
+    transition: color 0.1s;
+    color: rgb(112, 112, 156);
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    position: relative;
+    width: 800px;
+    height: 1100px;
+    margin: 50px auto;
+    background-image: url('Football_positions.png'); /* 축구장 이미지 */
+    background-size: cover;
+    border-radius: 30px;
+}
+
+
+
+/* 각 포지션을 위한 스타일 */
+.player {
+    position: absolute;
+    padding: 5px 10px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 8px;
+    font-weight: bold;
+    text-align: center;
+    width: 150px;
+}
+
+/* 포지션 배치 */
+.goalkeeper {
+    top: 78%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.defender-left {
+    top: 65%;
+    left: 5%; /* 더 왼쪽으로 이동 */
+}
+
+.defender-center {
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.player-img{
+    display: block;
+    width:150px;
+}
+
+
+.defender-right {
+    top: 65%;
+    left: 75%; /* 더 오른쪽으로 이동 */
+}
+
+.striker {
+    top: 10%;
+    left: 40%; /* 더 왼쪽으로 이동 */
+}
+
+.midfielder-center {
+    text-align: center;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+.forward-left {
+    top: 25%;
+    left: 15%;
+}
+
+.forward-right {
+    top: 25%;
+    left: 65%;
+}
+
+.ending{
+    background-color: #444444;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+  

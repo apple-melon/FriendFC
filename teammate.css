@@ -1,0 +1,141 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.logo{
+    margin-top: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    object-fit: cover;
+}
+
+.team-name{
+    margin-bottom: 10px;
+    font-size: 40px;
+    display: inline-block;
+}
+
+nav{
+    background-color: #413d3d;
+    color: white;
+    text-align: center;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    margin-right: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100;
+    transition: color 0.5s;
+}
+
+nav a:hover{
+    color: rgba(255, 255, 255, 0.42);
+    text-decoration: underline;
+}
+
+nav a:active{
+    transition: color 0.1s;
+    color: rgb(112, 112, 156);
+}
+
+
+
+.ending{
+    background-color: #444444;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+
+main {
+    padding: 40px;
+}
+
+.team-members {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.member {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 350px; /* 넓은 공간을 제공 */
+    text-align: center;
+    padding: 30px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+    transition: transform 0.2s;
+}
+
+.member:hover {
+    transform: translateY(-5px);
+}
+
+.member-photo {
+    width: 150px;
+    height: 200px;
+    border-radius: 5%;
+    margin-bottom: 20px;
+    object-fit: contain;
+}
+
+.member h2 {
+    font-size: 26px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.member p {
+    font-size: 18px;
+    color: #555;
+    margin: 8px 0;
+    margin-bottom: 20px;
+}
+
+.pass-success {
+    width: 80%;
+    height: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+.pass-success::-webkit-progress-bar {
+    background-color: #ddd;
+    border-radius: 5px;
+}
+
+.pass-success::-webkit-progress-value {
+    background-color: #212c92;
+    border-radius: 5px;
+}
